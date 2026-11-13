@@ -20,14 +20,24 @@ const SITE_CONFIG = {
     version: '1.0.3'
 };
 
-// API站点配置
+// API站点配置（2026-11-13 实测可用：可搜索 + 返回 JSON + 可播放）
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
+    xinlang: {
+        api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod',
+        name: '新浪资源'
+    },
+    jinying: {
+        api: 'https://jinyingzy.com/api.php/provide/vod',
+        name: '金鹰资源'
+    },
+    zy360: {
+        api: 'https://360zyzz.com/api.php/provide/vod',
+        name: '360资源'
+    },
+    dyttzy: {
+        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
+        name: '电影天堂资源'
     }
-    //ARCHIVE https://telegra.ph/APIs-08-12
 };
 
 // 定义合并方法
