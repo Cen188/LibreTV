@@ -20,15 +20,11 @@ const SITE_CONFIG = {
     version: '1.0.3'
 };
 
-// API站点配置（2026-11-13 实测可用：可搜索 + 返回 JSON + 可播放）
+// API站点配置（2026-11-13 实测：搜索有结果 + m3u8 可播，按响应速度排序）
 const API_SITES = {
-    xinlang: {
-        api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod',
-        name: '新浪资源'
-    },
-    jinying: {
-        api: 'https://jinyingzy.com/api.php/provide/vod',
-        name: '金鹰资源'
+    maoyan: {
+        api: 'https://api.maoyanapi.top/api.php/provide/vod',
+        name: '猫眼资源'
     },
     zy360: {
         api: 'https://360zyzz.com/api.php/provide/vod',
@@ -37,6 +33,22 @@ const API_SITES = {
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源'
+    },
+    liangzi: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod',
+        name: '量子资源'
+    },
+    modu: {
+        api: 'https://www.mdzyapi.com/api.php/provide/vod',
+        name: '魔都资源'
+    },
+    jisu: {
+        api: 'https://jszyapi.com/api.php/provide/vod',
+        name: '极速资源'
+    },
+    jinying: {
+        api: 'https://jyzyapi.com/provide/vod',
+        name: '金鹰资源'
     }
 };
 
